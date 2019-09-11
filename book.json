@@ -1,0 +1,93 @@
+{
+  "title": "数据分析实战45(Data Analysis-45)",
+  "author": "Hsi P'eng<lirawx>",
+  "description": "Data Analysis",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sidebar": {
+      "Home": "https://lirawx.me"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "-splitter",
+    "-expandable-chapters-small",
+    "-anchors",
+    "-github",
+    "-github-buttons",
+    "-donate",
+    "-sharing-plus",
+    "-anchor-navigation-ex",
+    "-favicon"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/lirawx"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "lirawx",
+          "repo": "DataAnalysis-Learning",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "donate": {
+      "alipay": "#",
+      "title": "",
+      "button": "赞赏",
+      "alipayText": " "
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": true,
+      "all": [
+        "google",
+        "facebook",
+        "weibo",
+        "twitter",
+        "qq",
+        "qzone",
+        "linkedin",
+        "pocket"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "favicon": {
+      "shortcut": "https://github.githubassets.com/favicon.ico",
+      "bookmark": "https://github.githubassets.com/favicon.ico",
+      "appleTouch": "https://github.githubassets.com/favicon.ico",
+      "appleTouchMore": {
+        "120x120": "https://github.githubassets.com/favicon.ico",
+        "180x180": "https://github.githubassets.com/favicon.ico"
+      }
+    }
+  }
+}
