@@ -195,7 +195,7 @@ df1 = df1.apply(plus, axis=1, args(2,3,))
 
 
 
-![image-20190903111941839](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903111941839.png)
+![image-20190903111941839](./images/image-20190903111941839.png)
 
 
 
@@ -263,13 +263,13 @@ print(ypsqldf(sql))
 
 
 
-![image-20190903112932659](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903112932659.png)
+![image-20190903112932659](./images/image-20190903112932659.png)
 
 
 
 
 
-![image-20190903114433511](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903114433511.png)
+![image-20190903114433511](./images/image-20190903114433511.png)
 
 
 

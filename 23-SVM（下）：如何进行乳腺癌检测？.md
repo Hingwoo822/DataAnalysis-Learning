@@ -116,7 +116,7 @@ print('准确率为：', metrics.accuracy_score(prediction, test_y))
 
 
 
-![image-20190905213353448](/Users/lirawx/Library/Application Support/typora-user-images/image-20190905213353448.png)
+![image-20190905213353448](./images/image-20190905213353448.png)
 
 
 

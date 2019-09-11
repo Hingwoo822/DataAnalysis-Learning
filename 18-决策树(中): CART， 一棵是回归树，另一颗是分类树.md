@@ -10,7 +10,7 @@ ID3 和 C4.5 可以生成二叉树或多叉树
 
 CART 只支持二叉树，同时，CART 既可以做分类树，又可以作回归树
 
-![image-20190904183910304](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904183910304.png)
+![image-20190904183910304](./images/image-20190904183910304.png)
 
 、
 
@@ -24,7 +24,7 @@ CART 采用基尼系数选择指标
 
 
 
-![image-20190904184300487](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904184300487.png)
+![image-20190904184300487](./images/image-20190904184300487.png)
 
 
 
@@ -70,7 +70,7 @@ print("CART 分类树准确率 %.4lf" % score)
 
 
 
-![image-20190904185538681](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904185538681.png)
+![image-20190904185538681](./images/image-20190904185538681.png)
 
 
 
@@ -82,7 +82,7 @@ CART 回归树采用 样本的离散程度
 
 
 
-![image-20190904191217438](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904191217438.png)
+![image-20190904191217438](./images/image-20190904191217438.png)
 
 
 
@@ -141,11 +141,11 @@ print('回归树的绝对值偏差均值:', mean_absolute_error(test_prices,pred
 
 CART决策树的剪枝主要采用CCP方法, 它是一种后剪枝的方法,英文全称叫做 cost-complexity  prune, 中文 叫做代价复杂度。
 
-![image-20190904193458397](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904193458397.png)
+![image-20190904193458397](./images/image-20190904193458397.png)
 
 
 
-![image-20190904193517082](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904193517082.png)
+![image-20190904193517082](./images/image-20190904193517082.png)
 
 
 

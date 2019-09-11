@@ -8,7 +8,7 @@
 
 
 
-![image-20190909115802322](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909115802322.png)
+![image-20190909115802322](./images/image-20190909115802322.png)
 
 
 
@@ -25,7 +25,7 @@
 
 
 
-![image-20190909145813577](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909145813577.png)
+![image-20190909145813577](./images/image-20190909145813577.png)
 
 
 
@@ -35,7 +35,7 @@
 
 ### 总结
 
-![image-20190909150200534](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909150200534.png)
+![image-20190909150200534](./images/image-20190909150200534.png)
 
 
 

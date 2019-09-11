@@ -31,7 +31,7 @@
 
 KNN 分类流程
 
-![image-20190906151721120](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906151721120.png)
+![image-20190906151721120](./images/image-20190906151721120.png)
 
 
 
@@ -106,7 +106,7 @@ print('决策树准确率：%.4lf' % accuracy_score(predict, test_y))
 
 
 
-![image-20190906152451051](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906152451051.png)
+![image-20190906152451051](./images/image-20190906152451051.png)
 
 
 

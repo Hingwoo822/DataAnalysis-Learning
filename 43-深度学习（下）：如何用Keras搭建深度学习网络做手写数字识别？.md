@@ -16,11 +16,11 @@ CNN 网络结构由三层组成， 他们分别是 卷积层，池化层和全�
 
 
 
-![image-20190911103540124](/Users/lirawx/Library/Application Support/typora-user-images/image-20190911103540124.png)
+![image-20190911103540124](./images/image-20190911103540124.png)
 
 
 
-![image-20190911103559690](/Users/lirawx/Library/Application Support/typora-user-images/image-20190911103559690.png)
+![image-20190911103559690](./images/image-20190911103559690.png)
 
 
 
@@ -111,13 +111,13 @@ CNN 的卷积层中可以有多个卷积核，以 LeNet 为例， 它的第一�
 
 ### LeNet 和 AlexNet 网络
 
-![image-20190911104943061](/Users/lirawx/Library/Application Support/typora-user-images/image-20190911104943061.png)
+![image-20190911104943061](./images/image-20190911104943061.png)
 
 
 
 ### 常用的深度学习框架对比
 
-![image-20190911105013802](/Users/lirawx/Library/Application Support/typora-user-images/image-20190911105013802.png)
+![image-20190911105013802](./images/image-20190911105013802.png)
 
 
 
@@ -179,4 +179,4 @@ print('准确率:', score[1])
 
 
 
-![image-20190911105519010](/Users/lirawx/Library/Application Support/typora-user-images/image-20190911105519010.png)
+![image-20190911105519010](./images/image-20190911105519010.png)

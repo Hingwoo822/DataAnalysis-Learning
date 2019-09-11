@@ -6,7 +6,7 @@
 
 ### 将微信开屏封面进行分割
 
-![image-20190906163303631](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906163303631.png)
+![image-20190906163303631](./images/image-20190906163303631.png)
 
 
 

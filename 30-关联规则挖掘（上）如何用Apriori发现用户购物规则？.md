@@ -74,7 +74,7 @@ FP-Growth 原理
 
 
 
-![image-20190909112101607](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909112101607.png)
+![image-20190909112101607](./images/image-20190909112101607.png)
 
 
 

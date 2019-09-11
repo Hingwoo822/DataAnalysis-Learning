@@ -18,7 +18,7 @@ Boosting 算法， 是集成算法的一种，也是一类算法的总称。
 
 
 
-![image-20190909161649744](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909161649744.png)
+![image-20190909161649744](./images/image-20190909161649744.png)
 
 
 
@@ -30,5 +30,5 @@ Boosting 算法， 是集成算法的一种，也是一类算法的总称。
 
 
 
-![image-20190909161825993](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909161825993.png)
+![image-20190909161825993](./images/image-20190909161825993.png)
 

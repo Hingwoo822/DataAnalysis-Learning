@@ -221,11 +221,11 @@ print(np.sort(a, axis=1))
 
 
 
-![image-20190903100633529](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903100633529.png)
+![image-20190903100633529](./images/image-20190903100633529.png)
 
 
 
-![image-20190903104241790](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903104241790.png)
+![image-20190903104241790](./images/image-20190903104241790.png)
 
 
 

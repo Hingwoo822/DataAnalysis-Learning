@@ -9,7 +9,7 @@
 3. 构成： 每个部分占整体的百分比，或者是随着时间的百分比变化，比如饼图
 4. 分布： 关注单个变量，或多个变量的分布情况，比如直方图
 
-![image-20190903143432867](/Users/lirawx/Library/Application Support/typora-user-images/image-20190903143432867.png)
+![image-20190903143432867](./images/image-20190903143432867.png)
 
 
 
@@ -325,5 +325,5 @@ plt.show()
 
 
 
-![image-20190904164440259](/Users/lirawx/Library/Application Support/typora-user-images/image-20190904164440259.png)
+![image-20190904164440259](./images/image-20190904164440259.png)
 

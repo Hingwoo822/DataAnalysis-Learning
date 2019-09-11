@@ -20,17 +20,17 @@ AdaBoost 不仅可以用于分类，还可以用于回归分析
 
 
 
-![image-20190909162134440](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909162134440.png)
+![image-20190909162134440](./images/image-20190909162134440.png)
 
 
 
-![image-20190909162143247](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909162143247.png)
+![image-20190909162143247](./images/image-20190909162143247.png)
 
 
 
 ### 如何用 AdaBoost 对房价进行预测
 
-![image-20190909162223494](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909162223494.png)
+![image-20190909162223494](./images/image-20190909162223494.png)
 
 
 
@@ -138,4 +138,4 @@ plt.show()
 
 ### 总结
 
-![image-20190909162728268](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909162728268.png)
+![image-20190909162728268](./images/image-20190909162728268.png)

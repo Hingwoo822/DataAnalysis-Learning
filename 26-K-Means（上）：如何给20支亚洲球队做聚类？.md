@@ -30,9 +30,9 @@ K 代表 K 类， Means 代表的是中心
 
 
 
-![image-20190906153827772](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906153827772.png)
+![image-20190906153827772](./images/image-20190906153827772.png)
 
-![image-20190906153857513](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906153857513.png)
+![image-20190906153857513](./images/image-20190906153857513.png)
 
 
 
@@ -58,13 +58,13 @@ sklearn 导包
 
 ```
 
-![image-20190906162651092](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906162651092.png)
+![image-20190906162651092](./images/image-20190906162651092.png)
 
 
 
 ### 总结
 
-![image-20190906162746481](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906162746481.png)
+![image-20190906162746481](./images/image-20190906162746481.png)
 
-![image-20190906162717433](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906162717433.png)
+![image-20190906162717433](./images/image-20190906162717433.png)
 

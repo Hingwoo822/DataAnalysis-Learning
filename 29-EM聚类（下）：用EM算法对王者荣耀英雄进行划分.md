@@ -38,7 +38,7 @@
 
 #### 如何使用 EM 算法对王者荣耀数据进行聚类
 
-![image-20190906173014461](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906173014461.png)
+![image-20190906173014461](./images/image-20190906173014461.png)
 
 
 

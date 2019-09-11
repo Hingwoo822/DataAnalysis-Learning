@@ -2,7 +2,7 @@
 
 
 
-![image-20190909150622799](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909150622799.png)
+![image-20190909150622799](./images/image-20190909150622799.png)
 
 
 
@@ -44,7 +44,7 @@ print('pagerank 的值:', pagerank_list)
 
 ### 如何用 PageRank 揭秘希拉里邮件中的人物关系
 
-![image-20190909155807586](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909155807586.png)
+![image-20190909155807586](./images/image-20190909155807586.png)
 
 
 
@@ -122,5 +122,5 @@ show_graph(small_graph)
 
 ### 总结
 
-![image-20190909161020014](/Users/lirawx/Library/Application Support/typora-user-images/image-20190909161020014.png)
+![image-20190909161020014](./images/image-20190909161020014.png)
 

@@ -16,7 +16,7 @@ KNN (K-Nearest Neighbor)
 
 K 值应该是个实践出来的结果，并不是事先约定的。工程上，我们一般采用交叉验证的方式选取K 值
 
-![image-20190906141928920](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906141928920.png)
+![image-20190906141928920](./images/image-20190906141928920.png)
 
 #### 距离如何计算
 
@@ -56,5 +56,5 @@ KD 树是对数据点在K维空间中划分一种数据结构。在 KD 树的构
 
 
 
-![image-20190906145023409](/Users/lirawx/Library/Application Support/typora-user-images/image-20190906145023409.png)
+![image-20190906145023409](./images/image-20190906145023409.png)
 

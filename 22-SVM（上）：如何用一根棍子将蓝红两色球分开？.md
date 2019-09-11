@@ -4,7 +4,7 @@ SVM(SUpport Vector Machine) 中文 支持向量机
 
 
 
-![image-20190905211108882](/Users/lirawx/Library/Application Support/typora-user-images/image-20190905211108882.png)
+![image-20190905211108882](./images/image-20190905211108882.png)
 
 
 
@@ -43,5 +43,5 @@ SVM(SUpport Vector Machine) 中文 支持向量机
 
 ### 总结
 
-![image-20190905211755523](/Users/lirawx/Library/Application Support/typora-user-images/image-20190905211755523.png)
+![image-20190905211755523](./images/image-20190905211755523.png)
 
