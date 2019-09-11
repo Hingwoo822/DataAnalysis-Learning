@@ -1,0 +1,930 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>07-用户画像:标签化就是数据的抽象能力 · 数据分析实战45(Data Analysis-45)</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Hsi P'eng<lirawx>">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="08-数据采集:如何自动化采集数据.html" />
+    
+    
+    <link rel="prev" href="06-学数据分析要掌握哪些基本概念.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://lirawx.me" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开篇词</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="00-开篇.html">
+            
+                <a href="00-开篇.html">
+            
+                    
+                    开篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第一模块: 数据分析基础篇(16 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="01-数据分析全景图及修炼指南.html">
+            
+                <a href="01-数据分析全景图及修炼指南.html">
+            
+                    
+                    01-数据分析全景图及修炼指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="02-学习数据挖掘的最佳路径是什么.html">
+            
+                <a href="02-学习数据挖掘的最佳路径是什么.html">
+            
+                    
+                    02-学习数据挖掘的最佳路径是什么?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="03-Python基础语法:开始你的Python之旅.html">
+            
+                <a href="03-Python基础语法:开始你的Python之旅.html">
+            
+                    
+                    03-Python 基础语法:开始你的 Python 之旅
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="04-Python科学计算:用NumPy快速处理数据.html">
+            
+                <a href="04-Python科学计算:用NumPy快速处理数据.html">
+            
+                    
+                    04-Python 科学计算:用 NumPy 快速处理数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="05-Python科学计算:Pandas.html">
+            
+                <a href="05-Python科学计算:Pandas.html">
+            
+                    
+                    05-Python 科学计算:Pandas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="06-学数据分析要掌握哪些基本概念.html">
+            
+                <a href="06-学数据分析要掌握哪些基本概念.html">
+            
+                    
+                    06-学数据分析要掌握哪些基本概念?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.7" data-path="07-用户画像:标签化就是数据的抽象能力.html">
+            
+                <a href="07-用户画像:标签化就是数据的抽象能力.html">
+            
+                    
+                    07-用户画像:标签化就是数据的抽象能力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="08-数据采集:如何自动化采集数据.html">
+            
+                <a href="08-数据采集:如何自动化采集数据.html">
+            
+                    
+                    08-数据采集:如何自动化采集数据?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="09-数据采集：如何用八爪鱼采集微博上的评论.html">
+            
+                <a href="09-数据采集：如何用八爪鱼采集微博上的评论.html">
+            
+                    
+                    09-数据采集:如何用八爪鱼采集微博上的“D&G”评论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="10-Python爬虫:如何自动化下载王祖贤海报.html">
+            
+                <a href="10-Python爬虫:如何自动化下载王祖贤海报.html">
+            
+                    
+                    10-Python 爬虫:如何自动化下载王祖贤海报
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="11-数据科学家时间都花费在来这些清洗任务上.html">
+            
+                <a href="11-数据科学家时间都花费在来这些清洗任务上.html">
+            
+                    
+                    11-数据科学家 80%实践都花费在来这些清洗任务上？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="12-数据成：这些大号一共20亿粉丝.html">
+            
+                <a href="12-数据成：这些大号一共20亿粉丝.html">
+            
+                    
+                    12-数据集成:这些大号一共 20 亿粉丝?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="13-数据变换:考试成绩要求正态分布合理么.html">
+            
+                <a href="13-数据变换:考试成绩要求正态分布合理么.html">
+            
+                    
+                    13-数据变换:考试成绩要求正态分布合理么?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="14-数据可视化:掌握数据领域的万金油技能.html">
+            
+                <a href="14-数据可视化:掌握数据领域的万金油技能.html">
+            
+                    
+                    14-数据可视化:掌握数据领域的万金油技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="15-一次学会Python数据可视化的10种技能.html">
+            
+                <a href="15-一次学会Python数据可视化的10种技能.html">
+            
+                    
+                    15-一次学会 Python 数据可视化的 10 种技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="16-数据分析基础篇答疑.html">
+            
+                <a href="16-数据分析基础篇答疑.html">
+            
+                    
+                    16-数据分析基础篇答疑
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第二模块: 数据分析算法篇(20 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="17-决策树（上）：要不要去打篮球？决策树来告诉你.html">
+            
+                <a href="17-决策树（上）：要不要去打篮球？决策树来告诉你.html">
+            
+                    
+                    17-决策树（上）：要不要去打篮球？决策树来告诉你
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="18-决策树（中）：CART，一棵是回归树，另一颗是分类树.html">
+            
+                <a href="18-决策树（中）：CART，一棵是回归树，另一颗是分类树.html">
+            
+                    
+                    18-决策树（中）：CART，一棵是回归树，另一颗是分类树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="19-决策树（下）：泰坦尼克乘客生存预测.html">
+            
+                <a href="19-决策树（下）：泰坦尼克乘客生存预测.html">
+            
+                    
+                    19-决策树（下）：泰坦尼克乘客生存预测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="20-朴素贝叶斯分类（上）：如何让机器判断男女？.html">
+            
+                <a href="20-朴素贝叶斯分类（上）：如何让机器判断男女？.html">
+            
+                    
+                    20-朴素贝叶斯分类（上）：如何让机器判断男女？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="21-朴素贝叶斯分类（下）：如何对文档进行分类？.html">
+            
+                <a href="21-朴素贝叶斯分类（下）：如何对文档进行分类？.html">
+            
+                    
+                    21-朴素贝叶斯分类（下）：如何对文档进行分类？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="22-SVM（上）：如何用一根棍子将蓝红两色球分开？.html">
+            
+                <a href="22-SVM（上）：如何用一根棍子将蓝红两色球分开？.html">
+            
+                    
+                    22-SVM（上）：如何用一根棍子将蓝红两色球分开？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="23-SVM（下）：如何进行乳腺癌检测？.html">
+            
+                <a href="23-SVM（下）：如何进行乳腺癌检测？.html">
+            
+                    
+                    23-SVM（下）：如何进行乳腺癌检测？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="24-KNN（上）：如何根据打斗和接吻次数来划分电影类型？.html">
+            
+                <a href="24-KNN（上）：如何根据打斗和接吻次数来划分电影类型？.html">
+            
+                    
+                    24-KNN（上）：如何根据打斗和接吻次数来划分电影类型？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="25-KNN（下）：如何对手写数字进行识别？.html">
+            
+                <a href="25-KNN（下）：如何对手写数字进行识别？.html">
+            
+                    
+                    25-KNN（下）：如何对手写数字进行识别？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="26-K-Means（上）：如何给20支亚洲球队做聚类？.html">
+            
+                <a href="26-K-Means（上）：如何给20支亚洲球队做聚类？.html">
+            
+                    
+                    26-K-Means（上）：如何给 20 支亚洲球队做聚类？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="27-K-Means（下）：如何使用K-Means对图像进行分割？.html">
+            
+                <a href="27-K-Means（下）：如何使用K-Means对图像进行分割？.html">
+            
+                    
+                    27-K-Means（下）：如何使用 K-Means 对图像进行分割？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="28-EM聚类（上）：如何将一份菜等分给两个人？.html">
+            
+                <a href="28-EM聚类（上）：如何将一份菜等分给两个人？.html">
+            
+                    
+                    28-EM 聚类（上）：如何将一份菜等分给两个人？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="29-EM聚类（下）：用EM算法对王者荣耀英雄进行划分.html">
+            
+                <a href="29-EM聚类（下）：用EM算法对王者荣耀英雄进行划分.html">
+            
+                    
+                    29-EM 聚类（下）：用 EM 算法对王者荣耀英雄进行划分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="30-关联规则挖掘（上）如何用Apriori发现用户购物规则？.html">
+            
+                <a href="30-关联规则挖掘（上）如何用Apriori发现用户购物规则？.html">
+            
+                    
+                    30-关联规则挖掘（上）如何用 Apriori 发现用户购物规则？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="31-关联规则挖掘（下）导演如何选择演员.html">
+            
+                <a href="31-关联规则挖掘（下）导演如何选择演员.html">
+            
+                    
+                    31-关联规则挖掘（下）导演如何选择演员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="32-PageRank（上）：搞懂Google的PageRank算法.html">
+            
+                <a href="32-PageRank（上）：搞懂Google的PageRank算法.html">
+            
+                    
+                    32-PageRank（上）：搞懂 Google 的 PageRank 算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="33-PageRank（下）：分析希拉里邮件中的人物关系.html">
+            
+                <a href="33-PageRank（下）：分析希拉里邮件中的人物关系.html">
+            
+                    
+                    33-PageRank（下）：分析希拉里邮件中的人物关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.18" data-path="34-AdaBoost（上）：如何使用AdaBoost提升分类器性能？.html">
+            
+                <a href="34-AdaBoost（上）：如何使用AdaBoost提升分类器性能？.html">
+            
+                    
+                    34-AdaBoost（上）：如何使用 AdaBoost 提升分类器性能？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.19" data-path="35-AdaBoost（下）如何使用AdaBoost对房价进行预测？.html">
+            
+                <a href="35-AdaBoost（下）如何使用AdaBoost对房价进行预测？.html">
+            
+                    
+                    35-AdaBoost（下）如何使用 AdaBoost 对房价进行预测？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.20" data-path="36-数据分析算法篇答疑.html">
+            
+                <a href="36-数据分析算法篇答疑.html">
+            
+                    
+                    36-数据分析算法篇答疑
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第三模块: 数据分析实战篇(7 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="37-数据采集实战：如何自动化运营微博？.html">
+            
+                <a href="37-数据采集实战：如何自动化运营微博？.html">
+            
+                    
+                    37-数据采集实战：如何自动化运营微博？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="38-数据可视化实战：如何给毛不易的歌曲做词云展示？.html">
+            
+                <a href="38-数据可视化实战：如何给毛不易的歌曲做词云展示？.html">
+            
+                    
+                    38-数据可视化实战：如何给毛不易的歌曲做词云展示？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="39-数据挖掘实战（1）：信用卡违约率分析.html">
+            
+                <a href="39-数据挖掘实战（1）：信用卡违约率分析.html">
+            
+                    
+                    39-数据挖掘实战（1）：信用卡违约率分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="40-数据挖掘实战（2）：信用卡诈骗分析.html">
+            
+                <a href="40-数据挖掘实战（2）：信用卡诈骗分析.html">
+            
+                    
+                    40-数据挖掘实战（2）：信用卡诈骗分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="41-数据挖掘实战（3）：如何对比特币走势进行预测？.html">
+            
+                <a href="41-数据挖掘实战（3）：如何对比特币走势进行预测？.html">
+            
+                    
+                    41-数据挖掘实战（3）：如何对比特币走势进行预测？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="42-深度学习（上）：当我们谈深度学习的时候，我们都在谈什么？.html">
+            
+                <a href="42-深度学习（上）：当我们谈深度学习的时候，我们都在谈什么？.html">
+            
+                    
+                    42-深度学习（上）：当我们谈深度学习的时候，我们都在谈什么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="43-深度学习（下）：如何用Keras搭建深度学习网络做手写数字识别？.html">
+            
+                <a href="43-深度学习（下）：如何用Keras搭建深度学习网络做手写数字识别？.html">
+            
+                    
+                    43-深度学习（下）：如何用 Keras 搭建深度学习网络做手写数字识别？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第四模块: 数据分析工作篇(2 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="44-如何培养你的数据分析思维？.html">
+            
+                <a href="44-如何培养你的数据分析思维？.html">
+            
+                    
+                    44-如何培养你的数据分析思维？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="45-求职简历中没有相关项目经验，怎么办？.html">
+            
+                <a href="45-求职简历中没有相关项目经验，怎么办？.html">
+            
+                    
+                    45-求职简历中没有相关项目经验，怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">加餐(1 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="加餐在社交网络上刷粉刷量，技术上是如何实现的？.html">
+            
+                <a href="加餐在社交网络上刷粉刷量，技术上是如何实现的？.html">
+            
+                    
+                    加餐在社交网络上刷粉刷量，技术上是如何实现的？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">结束语(1 讲)</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="结束语:当大家都在讲知识和工具的时候，我更希望你重视思维和实战.html">
+            
+                <a href="结束语:当大家都在讲知识和工具的时候，我更希望你重视思维和实战.html">
+            
+                    
+                    结束语:当大家都在讲知识和工具的时候，我更希望你重视思维和实战
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >07-用户画像:标签化就是数据的抽象能力</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="07-&#x7528;&#x6237;&#x753B;&#x50CF;-&#x6807;&#x7B7E;&#x5316;&#x5C31;&#x662F;&#x6570;&#x636E;&#x7684;&#x62BD;&#x8C61;&#x80FD;&#x529B;">07-&#x7528;&#x6237;&#x753B;&#x50CF;: &#x6807;&#x7B7E;&#x5316;&#x5C31;&#x662F;&#x6570;&#x636E;&#x7684;&#x62BD;&#x8C61;&#x80FD;&#x529B;</h1>
+<p><strong>&#x7CBE;&#x7EC6;&#x5316;&#x8FD0;&#x8425;</strong></p>
+<h2 id="&#x7528;&#x6237;&#x753B;&#x50CF;&#x51C6;&#x5219;">&#x7528;&#x6237;&#x753B;&#x50CF;&#x51C6;&#x5219;</h2>
+<p>&#x9996;&#x5148;&#x5C31;&#x662F;&#x5C06;&#x81EA;&#x5DF1;&#x7684;&#x4F01;&#x4E1A;&#x7528;&#x6237;&#x753B;&#x50CF;&#x505A;&#x4E2A;&#x767D;&#x63CF;&#x3002;&#x77E5;&#x9053;&#x7528;&#x6237; &#x201C;&#x90FD;&#x662F;&#x8C01;&#x201D; &#x3001;&#x201C;&#x4ECE;&#x54EA;&#x6765;&#x201D;&#x3001; &#x201C;&#x8981;&#x53BB;&#x54EA;&#x201D;</p>
+<p><img src="images/image-20190903124204784.png" alt="image-20190903124204784"></p>
+<h3 id="&#x9996;&#x5148;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8BBE;&#x8BA1;&#x7EF4;&#x4E00;&#x6807;&#x8BC6;">&#x9996;&#x5148;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8BBE;&#x8BA1;&#x7EF4;&#x4E00;&#x6807;&#x8BC6;</h3>
+<p><strong>&#x7528;&#x6237;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x662F;&#x6574;&#x4E2A;&#x7528;&#x6237;&#x753B;&#x50CF;&#x7684;&#x6838;&#x5FC3;</strong></p>
+<p>&#x4EE5;&#x4E00;&#x4E2A;app &#x4E3A;&#x4F8B;&#xFF0C;&#x5B83;&#x628A;&#x201C;&#x4ECE;&#x7528;&#x6237;&#x5F00;&#x59CB;&#x4F7F;&#x7528;app&#x5230;&#x4E0B;&#x5355;&#x5230;&#x552E;&#x540E;&#x6574;&#x4E2A;&#x6240;&#x6709;&#x7684;&#x7528;&#x6237;&#x884C;&#x4E3A;&#x201D; &#x8FDB;&#x884C;&#x4E32;&#x8054;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x66F4;&#x597D;&#x7684;&#x53BB;&#x8DDF;&#x8E2A;&#x548C;&#x5206;&#x6790;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x7684;&#x7279;&#x5F81;</p>
+<blockquote>
+<p>&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x9009;&#x62E9;&#xFF1A; &#x7528;&#x6237;&#x540D;&#xFF0C;&#x6CE8;&#x518C;&#x624B;&#x673A;&#x53F7;&#x3001;&#x8054;&#x7CFB;&#x4EBA;&#x624B;&#x673A;&#x53F7;&#x3001;&#x90AE;&#x7BB1;&#x3001;&#x8BBE;&#x5907;&#x53F7;&#x3001;CookieId&#x7B49;</p>
+</blockquote>
+<h3 id="&#x5176;&#x6B21;&#xFF0C;&#x7ED9;&#x7528;&#x6237;&#x6253;&#x6807;&#x7B7E;">&#x5176;&#x6B21;&#xFF0C;&#x7ED9;&#x7528;&#x6237;&#x6253;&#x6807;&#x7B7E;</h3>
+<p>&#x4E3A;&#x4E86;&#x4FDD;&#x8BC1;&#x7528;&#x6237;&#x753B;&#x50CF;&#x7684;&#x5168;&#x9762;&#x6027;</p>
+<p><strong>&#x7528;&#x6237;&#x6D88;&#x8D39;&#x884C;&#x4E3A;&#x5206;&#x6790;</strong></p>
+<ol>
+<li>&#x7528;&#x6237;&#x6807;&#x7B7E;&#xFF1A;&#x6027;&#x522B;&#x3001;&#x5E74;&#x9F84;&#x3001;&#x5730;&#x57DF;&#x3001;&#x6536;&#x5165;&#x3001;&#x5B66;&#x5386;&#x3001;&#x804C;&#x4E1A;&#x7B49;</li>
+<li>&#x6D88;&#x8D39;&#x6807;&#x7B7E;&#xFF1A;&#x6D88;&#x8D39;&#x4E60;&#x60EF;&#x3001;&#x8D2D;&#x4E70;&#x610F;&#x5411;&#x3001;&#x662F;&#x5426;&#x5BF9;&#x4FC3;&#x9500;&#x654F;&#x611F;</li>
+<li>&#x884C;&#x4E3A;&#x6807;&#x7B7E;&#xFF1A;&#x65F6;&#x95F4;&#x6BB5;&#x3001;&#x9891;&#x6B21;&#x3001;&#x65F6;&#x957F;&#x3001;&#x8BBF;&#x95EE;&#x8DEF;&#x5F84;</li>
+<li>&#x5185;&#x5BB9;&#x5206;&#x6790;&#xFF1A;&#x5BF9;&#x7528;&#x6237;&#x5E73;&#x65F6;&#x6D4F;&#x89C8;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x505C;&#x7559;&#x65F6;&#x95F4;&#x957F;&#xFF0C;&#x6D4F;&#x89C8;&#x6B21;&#x6570;&#x591A;&#x7684;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x5206;&#x6790;&#x51FA;&#x7528;&#x6237;&#x5BF9;&#x54EA;&#x4E9B;&#x5185;&#x5BB9;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x6BD4;&#x5982;&#xFF0C;&#x91D1;&#x878D;&#x3001;&#x5A31;&#x4E50;&#x3001;&#x6559;&#x80B2;&#x3001;&#x4F53;&#x80B2;&#x3001;&#x65F6;&#x5C1A;&#x3001;&#x79D1;&#x6280;&#x7B49;&#x3002;</li>
+</ol>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4ECE;&#x7528;&#x6237;&#x751F;&#x547D;&#x5468;&#x671F;&#x7684;&#x4E09;&#x4E2A;&#x9636;&#x6BB5;&#x6765;&#x5212;&#x5206;&#x4E1A;&#x52A1;&#x4EF7;&#x503C;&#xFF0C;&#x5305;&#x62EC;&#xFF1A;</p>
+<ol>
+<li>&#x83B7;&#x5BA2;&#xFF1A; &#x5982;&#x4F55;&#x8FDB;&#x884C;&#x62C9;&#x65B0;&#xFF0C;&#x901A;&#x8FC7;&#x66F4;&#x7CBE;&#x51C6;&#x7684;&#x8425;&#x9500;&#x83B7;&#x53D6;&#x5BA2;&#x6237;</li>
+<li>&#x7C98;&#x5BA2;&#xFF1A;&#x4E2A;&#x6027;&#x5316;&#x63A8;&#x8350;&#xFF0C;&#x641C;&#x7D22;&#x6392;&#x5E8F;&#xFF0C;&#x573A;&#x666F;&#x8FD0;&#x8425;&#x7B49;</li>
+<li>&#x7559;&#x5BA2;&#xFF1A;&#x6D41;&#x5931;&#x7387;&#x9884;&#x6D4B;&#xFF0C;&#x5206;&#x6790;&#x5173;&#x952E;&#x8282;&#x70B9;&#x964D;&#x4F4E;&#x6D41;&#x5931;&#x7387;&#x3002;</li>
+</ol>
+<p>&#x6309;&#x7167;&#x6570;&#x636E;&#x6D41;&#x5904;&#x7406;&#x7684;&#x9636;&#x6BB5;&#x6765;&#x5212;&#x5206;&#x7528;&#x6237;&#x753B;&#x50CF;&#x5EFA;&#x6A21;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C; &#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#xFF1A;</p>
+<ol>
+<li>&#x6570;&#x636E;&#x5C42;&#xFF1A;&#x7528;&#x6237;&#x6D88;&#x8D39;&#x884C;&#x4E3A;&#x91CC;&#x7684;&#x6807;&#x7B7E;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6253;&#x4E0A;&#x201C;&#x4E8B;&#x5B9E;&#x6807;&#x7B7E;&#x201D;&#xFF0C; &#x4F5C;&#x4E3A;&#x6570;&#x636E;&#x5BA2;&#x89C2;&#x7684;&#x8BB0;&#x5F55;</li>
+<li>&#x7B97;&#x6CD5;&#x5C42;&#xFF1A;&#x900F;&#x8FC7;&#x8FD9;&#x4E9B;&#x884C;&#x4E3A;&#x7B97;&#x51FA;&#x7684;&#x7528;&#x6237;&#x5EFA;&#x6A21;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6253;&#x4E0A;&#x201C;&#x6A21;&#x578B;&#x6807;&#x7B7E;&#x201D;&#xFF0C;&#x4F5C;&#x4E3A;&#x7528;&#x6237;&#x753B;&#x50CF;&#x7684;&#x5206;&#x7C7B;&#x6807;&#x8BC6;</li>
+<li>&#x4E1A;&#x52A1;&#x5C42;&#xFF1A;&#x6307;&#x7684;&#x662F;&#x83B7;&#x5BA2;&#xFF0C;&#x7C98;&#x5BA2;&#x3001;&#x7559;&#x5BA2;&#x7684;&#x624B;&#x6BB5;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6253;&#x4E0A;&#x201C;&#x9884;&#x6D4B;&#x6807;&#x7B7E;&#x201D;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E1A;&#x52A1;&#x5173;&#x8054;&#x7684;&#x7ED3;&#x679C;</li>
+</ol>
+<p><img src="images/image-20190903125544927.png" alt="image-20190903125544927"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="06-学数据分析要掌握哪些基本概念.html" class="navigation navigation-prev " aria-label="Previous page: 06-学数据分析要掌握哪些基本概念?">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="08-数据采集:如何自动化采集数据.html" class="navigation navigation-next " aria-label="Next page: 08-数据采集:如何自动化采集数据?">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"07-用户画像:标签化就是数据的抽象能力","level":"3.7","depth":1,"next":{"title":"08-数据采集:如何自动化采集数据?","level":"3.8","depth":1,"path":"08-数据采集:如何自动化采集数据.md","ref":"08-数据采集:如何自动化采集数据.md","articles":[]},"previous":{"title":"06-学数据分析要掌握哪些基本概念?","level":"3.6","depth":1,"path":"06-学数据分析要掌握哪些基本概念.md","ref":"06-学数据分析要掌握哪些基本概念.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-splitter","-expandable-chapters-small","-anchors","-github","-github-buttons","-donate","-sharing-plus","-anchor-navigation-ex","-favicon"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/lirawx"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"#","title":"","button":"赞赏","alipayText":" "},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false},"favicon":{"shortcut":"https://github.githubassets.com/favicon.ico","bookmark":"https://github.githubassets.com/favicon.ico","appleTouch":"https://github.githubassets.com/favicon.ico","appleTouchMore":{"120x120":"https://github.githubassets.com/favicon.ico","180x180":"https://github.githubassets.com/favicon.ico"}},"github-buttons":{"buttons":[{"user":"lirawx","repo":"DataAnalysis-Learning","type":"star","size":"small","count":true}]},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":true,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":true,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Hsi P'eng<lirawx>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"数据分析实战45(Data Analysis-45)","language":"zh-hans","links":{"sidebar":{"Home":"https://lirawx.me"}},"gitbook":"3.2.3","description":"Data Analysis"},"file":{"path":"07-用户画像:标签化就是数据的抽象能力.md","mtime":"2019-09-11T11:13:01.440Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-11T11:48:38.020Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
